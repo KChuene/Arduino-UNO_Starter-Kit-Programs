@@ -1,0 +1,31 @@
+Input
+- Button press
+
+Process
+- Button pressed
+- Countdown timer starts indicating, status indicated by LED
+- Buzzer sounds when timer runs out, for n seconds
+- Countdown status updated
+
+Output
+- LED status
+- Buzzer sound
+
+LED Statuses
+- RED - Timer stopped
+- YELLOW - Timer active
+- GREEN - Timer complete
+
+Extension
+- Two buttons
+- Star button and adjust button
+- Press start to set time, press adjust button n times to set nx5 minutes time,then start again to start timer
+
+Components
+- 1 x F-M wires
+- 2 x Push buttons
+- ? x M-M jumper wires
+- 1 x Active buzzer
+- 3 x LED (Red, Yellow, Green)
+- 1 x Arduino UNO
+- ? x Breadboard
